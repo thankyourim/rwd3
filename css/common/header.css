@@ -1,0 +1,60 @@
+/*header*/
+#wrap{
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  /* width: 100vw; */
+  height: auto;
+  /* border: 1px solid; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.829);
+}
+.header .inner-header{
+  padding:10px;
+  box-sizing: border-box;
+}
+.header .inner-header .nav{
+
+}
+.header .inner-header .nav .right-menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.header .inner-header .nav .right-menu span.menu{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  display: none;
+}
+.header .inner-header .nav .right-menu  .gnb{
+  /* width: 100%; */
+  flex: 1;
+}
+.header .inner-header .nav .right-menu  .gnb>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.header .inner-header .nav .right-menu  .gnb>ul>li{
+  line-height: 20px;
+  flex:1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.header .inner-header .nav .right-menu  .gnb>ul>li:hover{
+ background-color: rgba(0, 0, 0, 0.753);
+ color: #fff;
+}
+.header .inner-header .nav .right-menu  .gnb>ul>li a{
+  color:inherit;
+  display: block;
+}
